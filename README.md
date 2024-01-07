@@ -9,7 +9,7 @@
 This releases aims to easily run Proxmox on your Aeolia jailbroken PS4 with the given files (without compile the kernel by your own)
 
 # Setup (releases)
-1. Download all files from the releases section of this repo.
+1. Download all files from the [Releases / Tags](https://github.com/dam6/aeolia-ps4-proxmox/tags) section of this repo.
 2. Download Proxmox from the [Download](https://ps4linux.com/proxmox-ve-ps4-beta-virtualisation/) section of ps4linux.com website.
 3. Create a PS4-bootable external hard drive. I highly recommend follow along this [method](https://ps4linux.com/run-ps4-linux-without-installing/).
 4. Once you got the both partitions on the external hard drive (50MB with bzImage & initramfs.cpio.gz and the Proxmox one), unzip the given `5.15.15-02378-g999e4d75141f-dirty.zip` from the release section on the following Proxmox path: `/lib/modules/`.
